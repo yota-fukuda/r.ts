@@ -1,9 +1,9 @@
-// import React from "react";
+import React from "react";
 import ReactDOM from "react-dom";
-import Parent from "./props/Parent";
+import EventComponent from "./events/EventComponent";
 
 const App = () => {
-  return <Parent />;
+  return <EventComponent />;
 };
 
 ReactDOM.render(<App />, document.querySelector("#root"));
